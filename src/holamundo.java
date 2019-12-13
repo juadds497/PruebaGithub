@@ -7,7 +7,7 @@ public class holamundo {
 		Scanner teclado = new Scanner(System.in);
 		int[] numeros;
 		int numero;
-		System.out.print("Icdscdscdscdscdssntroduce cuantos numeros");
+		System.out.print("Introduce cuantos numeros");
 		numero=teclado.nextInt();
 		numeros = new int[numero];
 		for (int i =0;i>=numeros.length;i++) {
