@@ -1,7 +1,15 @@
 import java.util.Scanner;
 
-
 public class holamundo {
+
+	
+	public static int suma (){
+		int sum;
+		int numero1 = 5;
+		int numero2 = 8;
+		sum = numero1 + numero2;
+		return sum;
+	}
 
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
