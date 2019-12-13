@@ -1,7 +1,14 @@
 import java.util.Scanner;
 
 public class holamundo {
-
+	
+	public static int pro (){
+		int mu;
+		int numero1 = 5;
+		int numero2 = 8;
+		mu = (int) Math.pow(numero1,numero2);
+		return mu;
+	}
 	
 	public static int suma (){
 		int sum;
