@@ -24,6 +24,13 @@ public class holamundo {
 		mult = numero1 * numero2;
 		return mult;
 	}
+	public static int dividar (){
+		int div;
+		int numero1 = 5;
+		int numero2 = 8;
+		div = numero1 / numero2;
+		return div;
+	}
 
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
