@@ -17,6 +17,13 @@ public class holamundo {
 		resta = numero1 - numero2;
 		return resta;
 	}
+	public static int multiplicar (){
+		int mult;
+		int numero1 = 5;
+		int numero2 = 8;
+		mult = numero1 * numero2;
+		return mult;
+	}
 
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
