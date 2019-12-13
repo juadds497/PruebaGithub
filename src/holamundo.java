@@ -10,6 +10,13 @@ public class holamundo {
 		sum = numero1 + numero2;
 		return sum;
 	}
+	public static int resta (){
+		int resta;
+		int numero1 = 5;
+		int numero2 = 8;
+		resta = numero1 - numero2;
+		return resta;
+	}
 
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
